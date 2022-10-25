@@ -1,6 +1,3 @@
-variable "key_pair" {
-  default = "t101Study"
-}
 
 data "aws_ami" "amazon_linux_2" {
   most_recent = true

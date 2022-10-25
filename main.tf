@@ -3,6 +3,18 @@ provider "aws" {
   profile = "hallsholicker"
 }
 
-module "week01" {
-  source = "./week01"
+provider "aws" {
+  alias   = "vriginia"
+  region  = "us-east-1"
+  profile = "hallsholicker"
 }
+
+
+# module "week01" {
+#   source = "./week01"
+# }
+
+module "week02" {
+  source = "./week02"
+}
+
